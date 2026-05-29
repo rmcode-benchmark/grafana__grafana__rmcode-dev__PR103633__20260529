@@ -1,6 +1,6 @@
 module github.com/grafana/grafana
 
-go 1.24.2
+go 1.25
 
 require (
 	buf.build/gen/go/parca-dev/parca/connectrpc/go v1.17.0-20240902100956-02fd72488966.1 // @grafana/observability-traces-and-profiling
@@ -48,7 +48,7 @@ require (
 	github.com/fatih/color v1.18.0 // @grafana/grafana-backend-group
 	github.com/fullstorydev/grpchan v1.1.1 // @grafana/grafana-backend-group
 	github.com/gchaincl/sqlhooks v1.3.0 // @grafana/grafana-search-and-storage
-	github.com/getkin/kin-openapi v0.131.0 // @grafana/grafana-app-platform-squad
+	github.com/getkin/kin-openapi v0.139.0 // @grafana/grafana-app-platform-squad
 	github.com/go-git/go-billy/v5 v5.6.2 // @grafana/grafana-app-platform-squad
 	github.com/go-git/go-git/v5 v5.14.0 // @grafana/grafana-app-platform-squad
 	github.com/go-jose/go-jose/v3 v3.0.4 // @grafana/identity-access-team
@@ -465,8 +465,8 @@ require (
 	github.com/natefinch/wrap v0.2.0 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/oapi-codegen/runtime v1.0.0 // indirect
-	github.com/oasdiff/yaml v0.0.0-20250309154309-f31be36b4037 // indirect
-	github.com/oasdiff/yaml3 v0.0.0-20250309153720-d2182401db90 // indirect
+	github.com/oasdiff/yaml v0.1.0 // indirect
+	github.com/oasdiff/yaml3 v0.0.13 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/oklog/ulid/v2 v2.1.0 // indirect
@@ -575,6 +575,11 @@ require (
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+require (
+	github.com/santhosh-tekuri/jsonschema/v6 v6.0.2 // indirect
+	github.com/woodsbury/decimal128 v1.3.0 // indirect
 )
 
 // Use fork of crewjam/saml with fixes for some issues until changes get merged into upstream
